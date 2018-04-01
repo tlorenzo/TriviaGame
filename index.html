@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>(Placeholder) Trivia Game!</title>
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bitter:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bitter:400,700|Prociono|Sanchez" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -13,45 +13,70 @@
     <div id="container" class="box effect8">
 
     <header>
-        <h1>(Place Holder) Trivia</h1>
+        <h1>Trivia Game</h1>
         <!-- <h3>A Trivia Game About (Placeholder)</h3> -->
 
+        <div id="timerBar">
+                <div id="barRemaining"></div>
+              </div>
 
+              
 
     </header>
     <div id="mainStage">
 
-        <div id="question" class="box effect8 effect2">
-                <h3>Q.</h3>
-            <h2> Who or what did the quick brown fox jump over?</h2></div>
+        <div id="startButton" class="hvr-pulse-grow">
+            Start!
+        </div>
+
+        
+        <div id="checkAnswerDiv">
+            <div id="rightOrWrongDiv">
+                <h3 id="rightOrWrongH3"></h3>
+                <p id="rightAnswerWas"></p>
+                <div id="gifDiv"></div>
+                <div id="startOverButton" class="hvr-pulse-grow">
+                    Again?
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="skipToNext" class="hvr-sweep-to-right">Skip to next question!</div>
+
+        <div id="question" class="">
+                <h3 id="questionNumber">Q. 1 of .length</h3>
+            <h2 id="h2Question"> Who does the Quick Brown Fox jump over?</h2></div>
 
         <div id="answerContainer">
             <div class="hvr-shutter-out-horizontal" class="effect8 effect2" id="a">
                 <h3>A.</h3>
                 
-                <p>The Energetic Cat</p></div>
+                <p id="pA">The Energetic Cat</p></div>
             <div class="hvr-shutter-out-horizontal" id="b">
                     <h3>B.</h3>
-                <p>The Lone Wolf</p></div>
+                <p id="pB">The Lone Wolf</p></div>
 
             <div class="hvr-shutter-out-horizontal" class="effect8" id="c">
                     <h3>C.</h3>
-                    <p>President Martin Van Buren</p></div>
+                    <p id="pC">President Martin Van Buren</p></div>
             <div class="hvr-shutter-out-horizontal" id="d">
                     <h3>D.</h3>
-                    <p>The Lazy Dog</p></div>
+                    <p id="pD">The Lazy Dog</p></div>
 
 
         </div>
 
+        
 
     </div>
-
+    <div id="countdown">Time Left: <h3 id="countdown-number">30</h3></div>
 
 </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 </html>
