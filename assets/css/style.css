@@ -158,10 +158,11 @@ h2{
 
 #countdown {
     position: absolute;
-    bottom: -75px;
+    bottom: -70px;
+    left: -10px;
     float: left;
     height: 30px;
-    width: 25%;
+    width: 98.5%;
     background-color: #6A829C;
     border-radius: 5px;
     margin: 10px;

@@ -31,14 +31,14 @@ $(document).ready(function () {
     var quiz = [
 
         {
-            question: "Who directed Titanic (1997) starring Celine Dion, Billy Zane and Kate Winslet?",
+            question: "In his Oscar acceptance speech, which director was misinterpreted as actually claiming he was the King of the World?",
             pA: ["James Cameron", "James Cameroon", "Pres. Martin Van Buren", "Leonardo DiCaprio"],
             abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
             cA: 0
         },
 
         {
-            question: "Of these members of the animal kingdom, which species is the most evil?",
+            question: "According to zoology studies, of these members of the animal kingdom, which species is the most evil?",
             pA: ["Sharks", "Bees", "President Martin Van Buren", "Dolphins"],
             abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
             cA: 3
@@ -53,18 +53,56 @@ $(document).ready(function () {
 
 
         {
-            question: "The answer is C.",
-            pA: ["Placeholder A", "Placeholder B", "Placeholder C", "Placeholder D"],
+            question: "According to common wisdom, what must someone not do over spilt milk?",
+            pA: ["Cry", "Pour Cereal", "Dance", "Swim"],
             abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
-            cA: 2
+            cA: 0
         },
 
         {
-            question: "The answer is D.?",
-            pA: ["Placeholder A", "Placeholder B", "Placeholder C", "Placeholder D"],
+            question: "According to common wisdom, what's better than being good?",
+            pA: ["Crazy", "Lucky", "Intelligent", "Full of Cheese"],
+            abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
+            cA: 1
+        },
+        
+            
+            {
+            question: "According to Joey Tribbiani, which animal's opinion does not matter?",
+            pA: ["Smelly Cat", "Monkey", "The Chicken and The Duck", "Cow"],
             abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
             cA: 3
+        },
+        
+        {
+            question: "Which legendary boxing champion is said to have floated like a butterfly and stung like a bee?",
+            pA: ["Mike Tyson", "Rocky Balboa", "Muhammad Ali", "President Martin Van Buren" ],
+            abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
+            cA: 2
+        },
+        
+        {
+            question: "According to common wisdom, what animal should one not count before they hatch from their eggs?",
+            pA: ["Turtles", "Chickens", "Alligators", "Spiders" ],
+            abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
+            cA: 1
+        },
+        
+        {
+            question: "Which iconic performer is said to have left the building to indicate that his performance was, indeed, over?",
+            pA: ["Kenny G", "Barry Manilow", "John Lennon", "Elvis" ],
+            abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
+            cA: 3
+        },
+        
+        {
+            question: "Which aquatic based animal did Arthur Fonzarelli jump over in a pair of water skis?",
+            pA: ["Shark", "Piranhas", "Whale", "Electric Eels" ],
+            abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
+            cA: 0
         }
+
+
 
     ];
 
@@ -75,7 +113,7 @@ $(document).ready(function () {
     var theCorrectAnswerWas = "The answer we were looking for was ";
     var yourAnswerWas = "Your answer was ";
     var timeExpired = "Pencils down!";
-    var answerGif = ['jamesCameron.gif"', 'dolphin.gif"', 'quickBrownFox.gif"'];
+    var answerGif = ['jamesCameron.gif"', 'dolphin.gif"', 'quickBrownFox.gif"', 'conan-cry.gif"','lucky-than-good.gif"', 'joeymoo.gif"', 'ali.gif"', 'eggs.gif"', 'elvis.gif"','shark.gif"'];
 
     var qD = 0; //Stands for Question Displayed
     // var cA = 0; //Stands for Correct Answer
