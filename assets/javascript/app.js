@@ -139,7 +139,53 @@ $(document).ready(function () {
         
 
     }
+    $("#a").click(function () {
 
+        var mC = 0;
+        if (mC == quiz[qD].cA) {
+
+
+            checkAnswerRight();
+        } else {
+
+
+            checkAnswerWrong();
+        }
+    });
+    $("#b").click(function () {
+        var mC = 1;
+        if (mC == quiz[qD].cA) {
+
+
+            checkAnswerRight();
+        } else if (mC !== quiz[qD].cA) {
+
+
+            checkAnswerWrong();
+        }
+    });
+    $("#c").click(function () {
+        var mC = 2;
+        if (mC == quiz[qD].cA) {
+
+            checkAnswerRight();
+        } else {
+
+            checkAnswerWrong();
+        }
+    });
+    $("#d").click(function () {
+        var mC = 3;
+        if (mC == quiz[qD].cA) {
+
+            checkAnswerRight();
+        } else {
+
+            checkAnswerWrong();
+        }
+
+    });
+    
 
     // mC stands for Multiple Choice
     function displayQuestion() {
@@ -157,61 +203,19 @@ $(document).ready(function () {
 
         $('#pA').empty();
         $('#pA').html(quiz[qD].pA[0]);
-        $("#a").click(function () {
-
-            var mC = 0;
-            if (mC == quiz[qD].cA) {
-
-
-                checkAnswerRight();
-            } else {
-
-
-                checkAnswerWrong();
-            }
-        });
+       
 
         $('#pB').empty();
         $('#pB').html(quiz[qD].pA[1]);
-        $("#b").click(function () {
-            var mC = 1;
-            if (mC == quiz[qD].cA) {
-
-
-                checkAnswerRight();
-            } else if (mC !== quiz[qD].cA) {
-
-
-                checkAnswerWrong();
-            }
-        });
+       
 
         $('#pC').empty();
         $('#pC').html(quiz[qD].pA[2]);
-        $("#c").click(function () {
-            var mC = 2;
-            if (mC == quiz[qD].cA) {
-
-                checkAnswerRight();
-            } else {
-
-                checkAnswerWrong();
-            }
-        });
+        
 
         $('#pD').empty();
         $('#pD').html(quiz[qD].pA[3]);
-        $("#d").click(function () {
-            var mC = 3;
-            if (mC == quiz[qD].cA) {
-
-                checkAnswerRight();
-            } else {
-
-                checkAnswerWrong();
-            }
-
-        });
+       
 
 
         
