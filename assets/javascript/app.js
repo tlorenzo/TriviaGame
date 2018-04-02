@@ -69,7 +69,7 @@ $(document).ready(function () {
             
             {
             question: "According to Joey Tribbiani, which animal's opinion does not matter?",
-            pA: ["Smelly Cat", "Monkey", "The Chicken and The Duck", "Cow"],
+            pA: ["Smelly Cat", "Marcel the Monkey", "The Chicken and The Duck", "Cow"],
             abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
             cA: 3
         },
@@ -97,11 +97,24 @@ $(document).ready(function () {
         
         {
             question: "Which aquatic based animal did Arthur Fonzarelli jump over in a pair of water skis?",
-            pA: ["Shark", "Piranhas", "Whale", "Electric Eels" ],
+            pA: ["Shark", "Piranha", "Whale", "Electric Eel" ],
             abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
             cA: 0
+        },
+        
+        {
+            question: "According to common wisdom, without evidence, what must there also be if someone detects smoke?",
+            pA: ["Pizza", "Fire", "A barbecue.", "A chimney." ],
+            abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
+            cA: 1
+        },
+        
+        {
+            question: "What is a common offer price for one's thoughts?",
+            pA: ["$10", "$1", "Nickel", "Penny." ],
+            abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
+            cA: 3
         }
-
 
 
     ];
@@ -113,7 +126,7 @@ $(document).ready(function () {
     var theCorrectAnswerWas = "The answer we were looking for was ";
     var yourAnswerWas = "Your answer was ";
     var timeExpired = "Pencils down!";
-    var answerGif = ['jamesCameron.gif"', 'dolphin.gif"', 'quickBrownFox.gif"', 'conan-cry.gif"','lucky-than-good.gif"', 'joeymoo.gif"', 'ali.gif"', 'eggs.gif"', 'elvis.gif"','shark.gif"'];
+    var answerGif = ['jamesCameron.gif"', 'dolphin.gif"', 'quickBrownFox.gif"', 'conan-cry.gif"','lucky-than-good.gif"', 'joeymoo.gif"', 'ali.gif"', 'eggs.gif"', 'elvis.gif"','shark.gif"', 'donald-glover.gif"','penny.gif"'];
 
     var qD = 0; //Stands for Question Displayed
     // var cA = 0; //Stands for Correct Answer
