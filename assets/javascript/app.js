@@ -111,7 +111,7 @@ $(document).ready(function () {
         
         {
             question: "What is a common offer price for one's thoughts?",
-            pA: ["$10", "$1", "Nickel", "Penny." ],
+            pA: ["$10", "$1", "Nickel", "Penny" ],
             abcd: ["A.) ", "B.) ", "C.) ", "D.) "],
             cA: 3
         }
